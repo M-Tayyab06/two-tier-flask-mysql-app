@@ -25,3 +25,19 @@ This is a two-tier web application built with Flask and MySQL, containerized usi
 ```bash
 git clone https://github.com/your-username/flask-docker-app.git
 cd flask-docker-app
+
+
+
+flask-docker-app/
+│
+├── app/
+│   ├── templates/        # HTML templates for the Flask app
+│   │   └── index.html    # Main UI file
+│   ├── app.py            # Flask application code
+│   ├── Dockerfile        # Dockerfile for the Flask app
+│   └── requirements.txt  # Python dependencies
+│
+├── mysql-data/           # MySQL persistent storage
+├── docker-compose.yml    # Docker Compose configuration
+├── message.sql           # SQL file for database setup
+└── README.md             # Project documentation
